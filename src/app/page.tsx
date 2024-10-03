@@ -2,9 +2,7 @@
 const HomePage = () => { 
   
   return (
-    <div> <text>Matte Vonnée
-    </text>
-  </div>
+    <div>Matte Vonnée</div>
   )
 }
 
