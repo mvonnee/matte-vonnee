@@ -1,9 +1,11 @@
 
-const HomePage = () => { 
-  
-  return (
-    <div>Matte Vonnée</div>
-  )
-}
+import styles from "./page.module.css";
 
-export default HomePage
+
+export default function Home() {
+  return (
+    <div className={styles.page}>
+         <div>Matte Vonnée</div>
+    </div>
+  );
+}
